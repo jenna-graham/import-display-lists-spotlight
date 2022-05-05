@@ -37,6 +37,8 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    padding-left: 100px;
+    
 }
 
 section {

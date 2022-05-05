@@ -27,6 +27,10 @@
     border: solid 3px brown;
     
 }
+h1 {
+    display: flex;
+    justify-content: center;
+}
 /* div {
     font-family: fantasy;
 } */

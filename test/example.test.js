@@ -1,18 +1,19 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
 
+import { renderDragon } from '../utils.js';
+import { dragons } from '../dragons.js';
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
+test('test dragon render function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = true;
-    
+    const expected = `<div class="dragon"><h1>Drogon</h1><img src="./assets/drogon.jpg"><p>Drogon is 230 feet long with a fear factor of 7.</p></div>`;
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = true;
+    const actual = renderDragon(dragons[0]);
 
     //Expect
     // Make assertions about what is expected versus the actual result
-    expect.equal(actual, expected);
+    expect.equal(actual.outerHTML, expected);
 });

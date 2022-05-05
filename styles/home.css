@@ -1,1 +1,19 @@
 /* add home page styles here */
+.dragon {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
+    padding: 20px;
+    background-color: rgb(149, 149, 84);
+    font-family: fantasy;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#dragons img {
+    width: 100%;
+    border-radius: 50%;
+    border: solid 3px brown;
+}

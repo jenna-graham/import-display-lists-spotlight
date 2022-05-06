@@ -8,3 +8,6 @@ for (let dragon of dragons) {
     const dragonDiv = renderDragon(dragon);
     dragonList.append(dragonDiv);
 }
+import { children } from './mychildren.js';
+
+console.log(children);

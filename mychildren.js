@@ -1,7 +1,7 @@
 export const children = [{
-    name: Giyana,
+    name: 'Giyana',
     age: 13,
-    favoriteFood: tacos,
+    favoriteFood: 'tacos',
     image: './assets/giyana.jpg',
-    hobbies: ['making jewelry', 'acting in plays', 'hanging with friends'] 
+    hobbies: ['making jewelry', 'drama club', 'hanging with friends'] 
 }];

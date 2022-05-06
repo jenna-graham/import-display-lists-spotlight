@@ -9,5 +9,12 @@ for (let dragon of dragons) {
     dragonList.append(dragonDiv);
 }
 import { children } from './mychildren.js';
-
+import { renderChild } from './utils.js';
 console.log(children);
+
+const childList = document.getElementById('children');
+
+for (let child of children) {
+    const childDiv = renderChild(child);
+    childList.append(childDiv);
+}

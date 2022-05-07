@@ -1,7 +1,7 @@
 export const crystals = [{
     name: 'Citrine',
     color: 'yellow',
-    zodiac: 'November',
+    zodiac: 'Cancer',
     image: './assets/citrine.jpg',
     properties: ['brings energy', 'boosts self esteem and confidence', 'helps the thyroid'],
 },

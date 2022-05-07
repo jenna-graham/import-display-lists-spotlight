@@ -2,8 +2,7 @@
 #dragons {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
-    /* align-items: center; */
+    
     
 }
 .dragon {
@@ -16,16 +15,17 @@
     background-color: rgb(149, 149, 84);
     font-family: fantasy;
     text-align: center;
-    /* order-radius: 10px;b */
     margin: 20px;
 }
 
 .dragon img {
     width: 220px;
     height: 150px;
-    /* border-radius: 50%; */
     border: solid 3px brown;
     
+}
+section #dragons {
+    padding-left: 100px;
 }
 h1 {
     display: flex;
@@ -61,10 +61,10 @@ section h1 {
     border-radius: 50%;
     border: solid 3px brown;
 }
-section #children {
+/* section #children {
     padding-right: 75px;
     
-}
+} */
 
 .crystal {
     width: 30%;

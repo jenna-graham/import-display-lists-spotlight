@@ -47,12 +47,34 @@ export function renderChild(child) {
         li.textContent = hobby;
         ul.append(li);
     }
-
-
     div.append(h1, img, p, h2, ul);
     return div;
+}
 
+export function renderCrystal(crystal) {
+    const div = document.createElement('div');
+    div.classList.add('crystal');
 
+    const h1 = document.createElement('h1');
+    h1.textContent = crystal.name;
 
+    const img = document.createElement('img');
+    img.src = crystal.image;
 
+    const p = document.createElement('p');
+    p.textContent = `${crystal.name} is ${crystal.color} and is the birthstone for ${crystal.birthMonth}.`;
+
+    const h2 = document.createElement('h2');
+    h2.textContent = 'Properties';
+
+    const ul = document.createElement('ul');
+    for (let property of crystal.healingProperties) {
+        const li = document.createElement('li');
+        li.textContent = property;
+        ul.append(li);
+    } 
+
+    div.append(h1, img, p, h2, ul);
+
+    return div;
 }

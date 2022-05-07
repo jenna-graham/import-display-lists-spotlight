@@ -6,6 +6,9 @@ import { dragons } from '../dragons.js';
 
 import { renderChild } from '../utils.js';
 import { children } from '../mychildren.js';
+
+import { renderCrystal } from '../utils.js';
+import { crystals } from '../crystals.js';
 const test = QUnit.test;
 
 test('test dragon render function', (expect) => {
@@ -28,6 +31,19 @@ test('test child render function', (expect) => {
     //Act 
     // Call the function you're testing and set the result to a const
     const actual = renderChild(children[0]);
+
+    //Expect
+    // Make assertions about what is expected versus the actual result
+    expect.equal(actual.outerHTML, expected);
+});
+
+test('test crystal render function', (expect) => {
+    //Arrange
+    // Set up your arguments and expectations
+    const expected = `<div class="crystal"><h1>Citrine</h1><img src="./assets/citrine.jpg"><p>Citrine is yellow and is the birthstone for November.</p><h2>Properties</h2><ul><li>brings energy</li><li>boosts self esteem and confidence</li><li>helps the thyroid</li></ul></div>`;
+    //Act 
+    // Call the function you're testing and set the result to a const
+    const actual = renderCrystal(crystals[0]);
 
     //Expect
     // Make assertions about what is expected versus the actual result

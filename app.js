@@ -18,3 +18,5 @@ for (let child of children) {
     const childDiv = renderChild(child);
     childList.append(childDiv);
 }
+import { crystals } from './crystals.js';
+console.log(crystals);

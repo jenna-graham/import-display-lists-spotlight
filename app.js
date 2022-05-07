@@ -19,4 +19,12 @@ for (let child of children) {
     childList.append(childDiv);
 }
 import { crystals } from './crystals.js';
+import { renderCrystal } from './utils.js';
 console.log(crystals);
+
+const crystalList = document.getElementById('crystals');
+
+for (let crystal of crystals) {
+    const crystalDiv = renderCrystal(crystal);
+    crystalList.append(crystalDiv);
+}

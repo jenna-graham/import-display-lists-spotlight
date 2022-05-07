@@ -28,7 +28,7 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-color: rgb(48, 13, 48);
 }
 
 main {
@@ -52,7 +52,8 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    border: solid 2px rgb(214, 176, 214);
+    background-color: rgb(48, 13, 48);
 }
 
 header {
@@ -62,6 +63,8 @@ header {
     height: var(--header-height);
     box-shadow: var(--shadow);
     font-size: 3em;
+    background-color: rgb(48, 13, 48);
+    color: rgb(214, 176, 214);
 }
 
 

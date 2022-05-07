@@ -30,7 +30,12 @@
 h1 {
     display: flex;
     justify-content: center;
+    color: #ffff;
 }
+section h1 {
+    color: black;
+}
+    
 #children {
     display: flex;
     flex-direction: row;
@@ -76,8 +81,14 @@ section #children {
 }
 
 .crystal img {
-    width: 100%;
-    border: dotted 1px dimgray;
-    border-radius: 120px;
+    width: 200px;
+    height: 200px;
+    border: dotted 4px brown;
+    border-radius: 50%;
+    
+}
+#crystals {
+    display: flex;
+    flex-direction: row;
 }
 

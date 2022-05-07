@@ -1,8 +1,30 @@
-// import functions and grab DOM elements
+import { dragons } from './dragons.js';
+import { renderDragon } from './utils.js';
+console.log(dragons);
 
-// let state
+const dragonList = document.getElementById ('dragons');
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+for (let dragon of dragons) {
+    const dragonDiv = renderDragon(dragon);
+    dragonList.append(dragonDiv);
+}
+import { children } from './mychildren.js';
+import { renderChild } from './utils.js';
+console.log(children);
+
+const childList = document.getElementById('children');
+
+for (let child of children) {
+    const childDiv = renderChild(child);
+    childList.append(childDiv);
+}
+import { crystals } from './crystals.js';
+import { renderCrystal } from './utils.js';
+console.log(crystals);
+
+const crystalList = document.getElementById('crystals');
+
+for (let crystal of crystals) {
+    const crystalDiv = renderCrystal(crystal);
+    crystalList.append(crystalDiv);
+}

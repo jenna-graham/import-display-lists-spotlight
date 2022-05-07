@@ -1,1 +1,94 @@
 /* add home page styles here */
+#dragons {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.dragon {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
+    padding: 30px;
+    background-color: rgb(149, 149, 84);
+    font-family: fantasy;
+    text-align: center;
+    margin: 20px;
+}
+
+.dragon img {
+    width: 220px;
+    height: 150px;
+    border: solid 3px brown;
+    
+}
+section #dragons {
+    padding-left: 100px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+}
+section h1 {
+    color: black;
+}
+    
+#children {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.child {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
+    padding: 30px;
+    background-color: pink;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 30px;
+    margin: 20px;
+}
+.child img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: solid 3px brown;
+}
+/* section #children {
+    padding-right: 75px;
+    
+} */
+
+.crystal {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
+    padding: 30px;
+    background-color: burlywood;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 120px;
+    margin: 20px;
+}
+
+.crystal img {
+    width: 200px;
+    height: 200px;
+    border: dotted 4px brown;
+    border-radius: 50%;
+    
+}
+#crystals {
+    display: flex;
+    flex-direction: row;
+}
+

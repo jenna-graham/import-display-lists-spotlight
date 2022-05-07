@@ -28,7 +28,9 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-color: rgb(48, 13, 48);
+   
+
 }
 
 main {
@@ -37,11 +39,13 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    /* padding-left: 50px; */
+    
 }
 
 section {
     background-color: var(--color5);
-    max-width: 80%;
+    max-width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,15 +54,19 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    border: solid 2px rgb(214, 176, 214);
+    background-color: rgb(48, 13, 48);
 }
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    font-size: 3em;
+    background-color: rgb(48, 13, 48);
+    color: rgb(214, 176, 214);
 }
 
 
